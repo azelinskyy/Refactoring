@@ -1,0 +1,15 @@
+Refactoring consisted of minor and major changes
+Minor change:
+ 1) Hardcoded values such as 'AllDay' and 'Limited' were converted into enumeration. 
+2) Condition to check that product is available now was moved to a separate method in Product class
+ 3) It is possible that it will be required to check availability of the product not only using current hour. Methods that check availability were modified to accept datetime object and int representation of current hour.
+ 4) Different classes were moved to separate files in solution.
+5)  Public fields converted to properties
+Major changes:
+	1) Redundant methods and useless properties were removed.
+	2) Based on my understanding of legacy code main its purpose was to filter and display products. I've converted ProductUtils into extension methods container. It has two methods one for filtering lists of projects and another for displaying. There is also logic for generating list of test data and caching it. But it can be safely removed and the list of data can be created in Main method of the console application.
+	3) Implemented logic for displaying products strictly tight to Console. So I've modified it and my display method accepts object of ILogger interface that can be used to display list of products.
+
+TODO: 
+1)	If I had more time I’d consider reorganizing the code to support caching of products that are available during current hour
+2)	Product class can be redesigned to support properties with private setters and custom constructor
