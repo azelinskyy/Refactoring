@@ -1,5 +1,0 @@
-D:\Other\Chrome Downloads\Refactoring Test\Zelinskyy\Refactoring\bin\Debug\Refactoring.exe.config
-D:\Other\Chrome Downloads\Refactoring Test\Zelinskyy\Refactoring\bin\Debug\Refactoring.exe
-D:\Other\Chrome Downloads\Refactoring Test\Zelinskyy\Refactoring\bin\Debug\Refactoring.pdb
-D:\Other\Chrome Downloads\Refactoring Test\Zelinskyy\Refactoring\obj\Debug\Refactoring.exe
-D:\Other\Chrome Downloads\Refactoring Test\Zelinskyy\Refactoring\obj\Debug\Refactoring.pdb
